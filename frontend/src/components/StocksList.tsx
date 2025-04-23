@@ -12,9 +12,9 @@ export const StockList = ({ onSelect }: StockListProps) => {
     <div className="rounded-2xl bg-background p-6 shadow-md border border-gray-200">
       <div className="flex justify-between items-center mb-4">
         <h2 className="text-xl font-heading text-primary">Available Stocks</h2>
-        <Button onClick={() => refresh()} disabled={loading}>
+        {/* <Button onClick={() => refresh()} disabled={loading}>
           Refresh
-        </Button>
+        </Button> */}
       </div>
 
       <table className="w-full text-sm text-gray-800 border-separate [border-spacing:0.5em]">

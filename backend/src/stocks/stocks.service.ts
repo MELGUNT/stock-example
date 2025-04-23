@@ -10,7 +10,7 @@ export class StocksService {
 
   constructor(private eventEmitter: EventEmitter2) {
     this.stocksMap = new Map(SAMPLE_STOCKS.map(s => [s.symbol, s]));
-    //this.startPriceFluctuation();
+    this.startPriceFluctuation();
   }
 
   findAll(): Stock[] {

@@ -15,9 +15,12 @@ export interface Portfolio {
     holdings: PortfolioHolding[];
     totalValue: number;
 }
-  
+
+export type TradeSide = 'buy' | 'sell';
+
 export interface TradeRequest {
     symbol: string;
     quantity: number;
-    side: 'buy' | 'sell';
+    side: TradeSide;
 }
+

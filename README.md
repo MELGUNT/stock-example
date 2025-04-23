@@ -30,7 +30,7 @@ Runs on: `http://localhost:3001`
 ```bash
 cd frontend
 npm install
-npm run dev
+npm run start
 ```
 
 Runs on: `http://localhost:3000`
